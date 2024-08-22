@@ -61,3 +61,9 @@ cjaJwtHeaders(yourConfigFile=str, access_token =str)
 ```python
 cjaOauthHeaders(yourConfigFile=str, access_token =str)
 ```
+
+## AEP OAuth Headers
+```python
+cjaOauthHeaders(yourConfigFile=str, access_token =str, acceptHeader=str)
+```
+* acceptHeader is for functions that require variant accept headings to tailor your query
