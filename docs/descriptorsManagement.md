@@ -2,6 +2,8 @@
 -----------------------
 This wrapper is for you to pull a list of your descriptors from your instance of AEP
 
+WARNING: Most out of the Box functions assume your headers use: `application/vnd.adobe.xdm-v2+json`
+
 ## Functionality
 * [Get Company Descriptors](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/descriptorManagement.md#get-company-descriptors)
 
