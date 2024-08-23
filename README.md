@@ -51,7 +51,8 @@ Now that you are up and running you can follow a link to any of the below for th
 * [tagsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/tagsManagement.md)
 
 ## AEP
-* Under Construction
+* [descriptorsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/descriptorsManagement.md)
+* [statsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/statsManagement.md)
 
 
 ## Bug Reporting
