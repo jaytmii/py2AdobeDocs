@@ -12,6 +12,7 @@ Additionally please make sure you have your integration set up at https://develo
 * [AA JWT Headers](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auth.md#aa-jwt-headers)
 * [CJA JWT Headers](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auth.md#cja-jwt-headers)
 * [CJA OAuth Headers](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auth.md#cja-oauth-headers)
+* [AEP OAuth Headers](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auth.md#aep-oauth-headers)
 
 
 ## Dependencies
@@ -64,6 +65,6 @@ cjaOauthHeaders(yourConfigFile=str, access_token =str)
 
 ## AEP OAuth Headers
 ```python
-cjaOauthHeaders(yourConfigFile=str, access_token =str, acceptHeader=str)
+aepOauthHeaders(yourConfigFile=str, access_token =str, acceptHeader=str)
 ```
 * acceptHeader is for functions that require variant accept headings to tailor your query
