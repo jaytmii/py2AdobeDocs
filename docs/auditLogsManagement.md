@@ -9,6 +9,7 @@ WARNING: Depending on your traffic these calls will take a long time to pull dat
 * [Get Company Audit Logs](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auditLogsManagement.md#get-company-audit-logs)
 * [Get Company Audit Logs By Email](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auditLogsManagement.md#get-company-audit-logs-by-email)
 * [Get Company Audit Logs By User Id](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auditLogsManagement.md#get-company-audit-logs-by-user-id)
+* [Bulk Get Company Audit Logs](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auditLogsManagement.md#bulk-get-company-audit-logs)
 
 
 ## Dependencies
@@ -46,3 +47,9 @@ getCompanyAuditLogsByEmail(headers=dict, startDate=str, endDate=str, userEmail=s
 ```python
 getCompanyAuditLogsByUserId(headers=dict, startDate=str, endDate=str, userId=str, reqNum=int)
 ```
+
+## Bulk Get Company Audit Logs
+```python
+bulkGetCompanyAuditLogs(headers=dict, startDate=str, endDate=str, reqNum=int)
+```
+* There is an equivalent bulk pull variant for email and user Id. You should only use this if you have high CJA usage, otherwise the regular functions will work

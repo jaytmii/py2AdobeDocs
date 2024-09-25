@@ -5,9 +5,6 @@ Connections management is primarily for monitoring your connections and staying 
 ## Functionality
 * [Get Company Connections](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/connectionsManagement.md#get-company-connections)
 * [Get Single Connection](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/connectionsManagement.md#get-single-connection)
-* [Get Company Connections Backfill Report](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/connectionsManagement.md#get-company-connections-backfillreport)
-* [Get Company Connections DataSet Report](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/connectionsManagement.md#get-company-connections-dataset-report)
-* [Get Data Source Type](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/connectionsManagement.md#get-data-source-type)
 
 
 ## Dependencies

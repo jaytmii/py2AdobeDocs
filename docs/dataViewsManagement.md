@@ -7,6 +7,8 @@ There is significant functionality provided by the official API endpoints and th
 * [Get Single DataView Info](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-single-dataview-info)
 * [Get Company DataView Filters](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-company-dataview-filters)
 * [Get Single DataView Filters Info](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-single-dataview-filters-info)
+* [Get Company DataViews Usage](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-company-dataviews-usage)
+* [Get Company DataViews Usage Report](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-company-dataviews-usage-report)
 * [Create a DataView](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#create-a-dataview)
 * [Copy a DataView](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#copy-a-dataview)
 * [Delete a DataView](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#delete-a-dataview)
@@ -65,6 +67,18 @@ getCompanyDataViewFilters(headers=dict, reqNum = 5)
 ```python
 getSingleDataViewFilters(headers=dict, dataViewId = str, reqNum = 5)
 ```
+
+## Get Company DataViews Usage
+```python
+getCompanyDataViewsUsage(headers=dict, reqNum = 5)
+```
+* Builds a report based off the number of projects used by each dataView as a proxy for usage
+
+## Get Company DataViews Usage Report
+```python
+getCompanyDataViews(headers=dict, reqNum = 5)
+```
+* This is a summation and visualization table of the base report from getCompanyDataViewUsage.
 
 ## Create A DataView
 ```python

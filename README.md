@@ -41,6 +41,7 @@ Now that you are up and running you can follow a link to any of the below for th
 * [annotationManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/annotationsManagement.md)
 * [auditLogsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auditLogsManagement.md)
 * [auth](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/auth.md)
+* [bulkExportManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/bulkExportManagement.md)
 * [connectionsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md)
 * [consumptionManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/consumptionManagement.md)
 * [dataViewsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md)
@@ -51,8 +52,8 @@ Now that you are up and running you can follow a link to any of the below for th
 * [tagsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/tagsManagement.md)
 
 ## AEP
-* [descriptorsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/descriptorsManagement.md)
-* [statsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/statsManagement.md)
+* [schemaRegistryManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md)
+* [catalogManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/catalogManagement.md)
 
 
 ## Bug Reporting
