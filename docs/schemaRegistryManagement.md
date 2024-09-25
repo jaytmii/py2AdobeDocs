@@ -9,7 +9,7 @@ WARNING: Most out of the Box functions assume your headers use: `application/vnd
 * [Get Company Descriptors](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-company-descriptors)
 * [Delete Descriptors](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#delete-descriptors)
 * [Get Schema Events](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-schema-events)
-* [GET Schema Dimensions](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-schema-dimensions)
+* [Get Schema Dimensions](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-schema-dimensions)
 
 
 ## Dependencies

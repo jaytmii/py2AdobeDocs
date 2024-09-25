@@ -5,9 +5,9 @@ This wrapper is for the catalog API that Adobe provides. Generally for batches, 
 WARNING: Most out of the Box functions assume your headers use: `application/vnd.adobe.xdm-v2+json`
 
 ## Functionality
-* [Get Company DataSets](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-company-datasets)
-* [Get Company Schemas By DataSet Id](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#get-company-schemas-by-dataset-id)
-* [Delete DataSet](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/schemaRegistryManagement.md#delete-dataset)
+* [Get Company DataSets](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/catalogManagement.md#get-company-datasets)
+* [Get Company Schemas By DataSet Id](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/catalogManagement.md#get-company-schemas-by-dataset-id)
+* [Delete DataSet](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/catalogManagement.md#delete-dataset)
 
 
 
