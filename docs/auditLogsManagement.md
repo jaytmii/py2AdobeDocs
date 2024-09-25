@@ -18,6 +18,7 @@ WARNING: Depending on your traffic these calls will take a long time to pull dat
 * json
 * time
 * numpy
+* matplotlib
 
 ## Common Input Parameters
 * headers are generated using the auth file and are required for all calls

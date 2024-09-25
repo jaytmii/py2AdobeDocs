@@ -42,6 +42,7 @@ There is significant functionality provided by the official API endpoints and th
 * json
 * time
 * numpy
+* matplotlib
 
 ## Common Input Parameters
 * headers are generated using the auth file and are required for all calls
