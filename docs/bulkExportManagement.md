@@ -27,5 +27,5 @@ getBulkExportJobsList(headers=dict, imsUserId=str | list, reqNum = 5)
 ```python
 getBulkExportReportType(headers=dict, imsUserId=str | list, reqNum = 5)
 ```
-* Contains all the logic powering the calculation
+* Produces a report with the type of job (daily, monthly, weekly, etc.)
 
