@@ -16,6 +16,7 @@ This module contains all the functions needed to manage projects across your ins
 * [Get Calculated Metrics Used In A Project](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/projectsManagement.md#get-calculated-metrics-in-a-project)
 * [Get Annotations In A Project](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/projectsManagement.md#get-annotations-in-a-project)
 * [Delete A Project](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/projectsManagement.md#delete-a-project)
+* [Get Project Usage](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/projectsManagement.md#get-project-usage)
 
 
 ## Dependencies
@@ -99,4 +100,8 @@ getAnnotationsInAProject(headers=dict, componentId=str, reqNum=5)
 deleteAProject(headers=dict, componentId=str, reqNum=5)
 ```
 
+## Get Project Usage
+```python
+getProjectUsage(headers=dict, reqNum=5)
+```
 
