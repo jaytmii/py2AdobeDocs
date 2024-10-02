@@ -19,6 +19,7 @@ There is significant functionality provided by the official API endpoints and th
 * [Approve Calculated Metric](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md#approve-calculated-metric)
 * [Disapprove Calculated Metric](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md#disapprove-calculated-metric)
 * [Delete A Calculated Metric](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md#delete-calculated-metric)
+* [Calculated Metric Usage](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md#calculated-metric-usage)
 
 
 ## Dependencies
@@ -126,4 +127,8 @@ disapproveCalculatedMetric(headers=dict, metricId=str, reqNum=5)
 deleteACalculatedMetric(headers=dict, metricId=str, reqNum=5)
 ```
 
-
+## Calculated Metric Usage
+```python
+calculatedMetricUsage(headers=dict, reqNum=5)
+```
+* Use this to generate a usage report for all your instance's calculated metrics
