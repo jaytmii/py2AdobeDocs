@@ -17,6 +17,7 @@ This is for managing your filters on CJA
 * [Disapprove Filter](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/filtersMangement.md#disapprove-filter)
 * [Update Filter](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/filtersMangement.md#update-filter)
 * [Delete A Filter](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/filtersMangement.md#delete-a-filter)
+* [Filter Usage](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/filtersMangement.md#filter-usage)
 
 
 ## Dependencies
@@ -25,6 +26,7 @@ This is for managing your filters on CJA
 * json
 * time
 * numpy
+* matplotlib
 
 
 ## Common Input Parameters
@@ -107,4 +109,8 @@ updateFilter(headers=dict, filterId=str, definition=dict, dataViewId=str, reqNum
 deleteAFilter(headers=dict, filterId=str, reqNum=5)
 ```
 
-
+## Filter Usage
+```python
+filterUsage(headers=dict, reqNum=5)
+```
+* Shows a report of filters by the numbers of projects they are included in

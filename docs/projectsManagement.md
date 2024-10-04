@@ -25,6 +25,7 @@ This module contains all the functions needed to manage projects across your ins
 * json
 * time
 * numpy
+* matplotlib
 
 
 ## Common Input Parameters
