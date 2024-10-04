@@ -12,6 +12,8 @@ This wrapper will allow you to track Bulk Export jobs within CJA:
 * requests
 * json
 * time
+* datetime
+* matplotlib
 
 ## Common input parameters
 * headers are generated using the auth file and are required for all calls
