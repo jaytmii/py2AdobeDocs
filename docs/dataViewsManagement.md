@@ -35,6 +35,7 @@ There is significant functionality provided by the official API endpoints and th
 * [Bulk Change Metric Name](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#bulk-change-metric-name)
 * [Bulk Change Metric Description](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#bulk-change-metric-description)
 * [Bulk Add Or Remove Metric](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#bulk-add-or-remove-metrics)
+* [Get Company DataView Dimensions and Metrics](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md#get-company-dataview-dimensions-and-metrics)
 
 ## Dependencies
 * pandas
@@ -228,3 +229,10 @@ bulkChangeDataViewMetricDescription(headers=dict, description=list, dataViewId=s
 bulkAddOrRemoveDataViewMetrics(headers =dict, name=list, dataViewId=str, addOrRemove=str, schemaLocation=list)
 ```
 * This works on a single dataView to add a list of dimensions. Name and schemaLocation are both lists of strings and must be of equal length
+
+
+## Get Company DataView Dimension and Metrics
+```python
+getCompanyDataViewDimensionsAndMetrics(headers = dict, reqNum = 5)
+```
+* This is a pull of every dimensions and metric by dataview across the entirety of CJA's instance
