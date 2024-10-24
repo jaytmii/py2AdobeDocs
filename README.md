@@ -45,6 +45,7 @@ Now that you are up and running you can follow a link to any of the below for th
 * [connectionsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/calculatedMetricsManagement.md)
 * [consumptionManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/consumptionManagement.md)
 * [dataViewsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataViewsManagement.md)
+* [dataScienceManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/dataScienceManagement.md)
 * [filtersManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/filtersMangement.md)
 * [projectsManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/projectsManagement.md)
 * [reportingManagement](https://github.com/jaytmii/py2AdobeDocs/blob/main/docs/reportingManagement.md)
