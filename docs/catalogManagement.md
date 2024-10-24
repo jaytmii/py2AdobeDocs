@@ -26,16 +26,16 @@ WARNING: Most out of the Box functions assume your headers use: `application/vnd
 
 ## Get Company Datasets
 ```python
-getCompanyDataSets(headers=dict, reqNum=5)
+getCompanyDataSets(headers=dict, reqNum=int)
 ```
 
 ## Get Company Schemas By DataSet Id
 ```python
-getCompanySchemasByDataSetId(headers=dict, schemaId=str, reqNum=5)
+getCompanySchemasByDataSetId(headers=dict, schemaId=str, reqNum=int)
 ```
 
 ## Delete DataSet
 ```python
-deleteDataSet(headers=dict, dataSetId=str, reqNum=5)
+deleteDataSet(headers=dict, dataSetId=str, reqNum=int)
 ```
 

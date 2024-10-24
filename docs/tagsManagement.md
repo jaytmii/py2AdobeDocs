@@ -33,47 +33,47 @@ WARNING: If you have a large number of tags used several of these functions will
 
 ## Get Total Tags Counts
 ```python
-getTotalTagsCount(headers=dict, reqNum=5)
+getTotalTagsCount(headers=dict, reqNum=int)
 ```
 * A Total count of all tags used in your instance
 
 ## Get Company Tags
 ```python
-getCompanyTags(headers=dict, reqNum=5)
+getCompanyTags(headers=dict, reqNum=int)
 ```
 
 ## Get Tag Info
 ```python
-getCompanyTags(headers=dict, tagId=str, reqNum=5)
+getCompanyTags(headers=dict, tagId=str, reqNum=int)
 ```
 * Generate a basic report of a singel tag
 
 ## Get All Tag Info
 ```python
-getAllTagInfo(headers=dict, reqNum=5)
+getAllTagInfo(headers=dict, reqNum=int)
 ```
 * Similar to other `Company` functions, pulling all tag info
 
 ## Retrieve Components By Tag Name
 ```python
-retrieveComponentsByTagName(headers=dict, tagNames=str, componentType=str, reqNum=5)
+retrieveComponentsByTagName(headers=dict, tagNames=str, componentType=str, reqNum=int)
 ```
 * This will retrieve all projects, segments, or calculatedMetrics used by the tag
 
 ## Retrieve Tags By Component Id
 ```python
-retrieveTagsByComponentId(headers=dict, componentType=str, componentId=str, reqNum=5)
+retrieveTagsByComponentId(headers=dict, componentType=str, componentId=str, reqNum=int)
 ```
 
 ## Remove Tag From Component
 ```python
-removeTagFromComponent(headers=dict, filterOrCalculatedMetricId=str, componentType=str, reqNum=5)
+removeTagFromComponent(headers=dict, filterOrCalculatedMetricId=str, componentType=str, reqNum=int)
 ```
 * Can be used to remove from a specific component
 * filterOrCalculatedMetricId is the ID for the filter or Calculated Metric Type
 
 ## Remove Tag From All Components
 ```python
-removeTagFromAllComponents(headers=dict, tagId=str, reqNum=5)
+removeTagFromAllComponents(headers=dict, tagId=str, reqNum=int)
 ```
 * Used for old tags

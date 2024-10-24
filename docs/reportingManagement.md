@@ -29,50 +29,50 @@ This module is used of the CJA Reporting API and provides significant value for 
 * endDate this is formatted in the standard `YYYY-MM-DD` format
 * metric this is the schema location for a single emtric
 * metrics this is a list of metrics, it must contain five separate entries in list format
-* rowsPerPage allows you to set the number of rows per page of pull, can accept a max of 50000
+* rowsPerPage allows you to set the number of rows per page of pull, can accept a max of int0000
 * limit this is differentiated as an input name, but is functionally the same as rowsPerPage
 
 ## Get Single Call Report
 ```python
-getSingleCallReport(headers=dict, body=dict, reqNum=5)
+getSingleCallReport(headers=dict, body=dict, reqNum=int)
 ```
 
 ## Get Total Table Rows
 ```python
-getTotalTableRows(headers=dict, body=dict, reqNum=5)
+getTotalTableRows(headers=dict, body=dict, reqNum=int)
 ```
 
 ## Get Total Table Pages
 ```python
-getTotalTablePages(headers=dict, body=dict, reqNum=5)
+getTotalTablePages(headers=dict, body=dict, reqNum=int)
 ```
 
 ## Get All Rows Report
 ```python
-getAllRowsReport(headers=dict, body=dict, rowsPerPage=int, reqNum=5)
+getAllRowsReport(headers=dict, body=dict, rowsPerPage=int, reqNum=int)
 ```
 
 ## Monthly Time Series Report
 ```python
-monthlyTimeSeriesReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metric=str, reqNum=5, limit=50000)
+monthlyTimeSeriesReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metric=str, reqNum=int, limit=int0000)
 ```
 * This will get a month based report for a single metric
 
 ## Daily Time Series Report
 ```python
-dailyTimeSeriesReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metric=str, reqNum=5, limit=50000)
+dailyTimeSeriesReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metric=str, reqNum=int, limit=int0000)
 ```
 * This will get a day's based report for a single metric
 
 ## Five Metrics Report
 ```python
-fiveMetricReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metrics=list, dimension=str, rowsPerPage=int, reqNum=5, limit=50000)
+fiveMetricReport(headers=dict, dataViewId=str, startDate=str, endDate=str, metrics=list, dimension=str, rowsPerPage=int, reqNum=int, limit=int0000)
 ```
 * You must include five metrics in the entry for this to work and in a list format
 
 ## Breakdown Report
 ```python
-breakdownReport(headers=dict, dataViewId=str, startDate=str, endDate=str, dimension=str, metric=str, rowsPerPage=int, breakdownDim=str, reqNum=5, limit=50000)
+breakdownReport(headers=dict, dataViewId=str, startDate=str, endDate=str, dimension=str, metric=str, rowsPerPage=int, breakdownDim=str, reqNum=int, limit=int0000)
 ```
 * This will breakdown a single metric by two dimensions, rowsPerPage will set the rows per page for each dimension
 

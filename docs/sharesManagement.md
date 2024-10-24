@@ -22,12 +22,12 @@ This module contains all the functions needed to understand what has been shared
 
 ## Get Components Shared By Current User
 ```python
-getComponentsSharedByCurrentUser(headers=dict, reqNum=5)
+getComponentsSharedByCurrentUser(headers=dict, reqNum=int)
 ```
 
 ## Get Components Shared With Current User
 ```python
-getSharedComponentsForCurrentUser(headers=dict, componentType=str, reqNum=5)
+getSharedComponentsForCurrentUser(headers=dict, componentType=str, reqNum=int)
 ```
 
 

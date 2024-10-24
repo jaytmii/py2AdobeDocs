@@ -38,34 +38,34 @@ There is significant functionality provided by the official API endpoints and th
 
 ## Get Calculated Metric Use Report
 ```python
-getCalculatedMetricUseReport(headers=dict, metricId=str, reqNum = 5)
+getCalculatedMetricUseReport(headers=dict, metricId=str, reqNum = int)
 ```
 
 ## Get Calculated Metric Definition
 ```python
-getCalculatedMetricDefinition(headers=dict, metricId=str, reqNum = 5)
+getCalculatedMetricDefinition(headers=dict, metricId=str, reqNum = int)
 ```
 * Contains all the logic powering the calculation
 
 ## Get CalculatedMetric Compatibility
 ```python
-getCalculatedMetricCompatibility(headers=dict, metricId=str, reqNum = 5)
+getCalculatedMetricCompatibility(headers=dict, metricId=str, reqNum = int)
 ```
 * For pulling information on the functions, the metrics used in the calculation, and their path
 
 ## Get Calculated Metric Owner
 ```python
-getCalculatedMetricOwner(headers=dict, dmetricId = str, reqNum = 5)
+getCalculatedMetricOwner(headers=dict, dmetricId = str, reqNum = int)
 ```
 
 ## Get Caclculated Metric
 ```python
-getCalculatedMetric(headers=dict, metricId=str, reqNum=5)
+getCalculatedMetric(headers=dict, metricId=str, reqNum=int)
 ```
 
 ## Copy Calculated Metric
 ```python
-copyCalculatedMetric(headers=dict, owner=str, metricId=str,dataViewId=str,cmName=str,cmDescription=str,reqNum=5)
+copyCalculatedMetric(headers=dict, owner=str, metricId=str,dataViewId=str,cmName=str,cmDescription=str,reqNum=int)
 ```
 * cmName is for the new calculated metrics name. If not included "(Copy)" will be appended to the end of the original name
 * cmDescription is the new metric's description, otherwise it will pull in the original metrics description
@@ -73,62 +73,62 @@ copyCalculatedMetric(headers=dict, owner=str, metricId=str,dataViewId=str,cmName
 
 ## Get Total Calculated Metrics Count
 ```python
-getTotalCalculatedMetricsCount(headers=dict, reqNum=5)
+getTotalCalculatedMetricsCount(headers=dict, reqNum=int)
 ```
 * This is used to get the total count of calculatedMetrics in the instance
 
 ## Share Calculated Metric To All
 ```python
-shareCalculatedMetricToAll(headers=dict, metricId=str, reqNum=5)
+shareCalculatedMetricToAll(headers=dict, metricId=str, reqNum=int)
 ```
 * Share to all Users
 
 ## Unshare Calculated Metric To All Users
 ```python
-unshareCalculatedMetricToAll(headers=dict, metricId=str, reqNum=5)
+unshareCalculatedMetricToAll(headers=dict, metricId=str, reqNum=int)
 ```
 * Remove share to all users
 
 ## Share Calculated Metric To User
 ```python
-shareCalculatedMetricToUser(headers=dict, metricId=str, userId=str, reqNum=5)
+shareCalculatedMetricToUser(headers=dict, metricId=str, userId=str, reqNum=int)
 ```
 
 ## Share Calculated Metric To Group
 ```python
-shareCalculatedMetricToGroup(headers=dict, metricId=str, imsUserId=str, reqNum=5)
+shareCalculatedMetricToGroup(headers=dict, metricId=str, imsUserId=str, reqNum=int)
 ```
 * Group Id is represented by the imsUserId variable, please check your instance
 
 ## Get Company Calculated Metrics
 ```python
-getCompanyCalculatedMetrics(headers=dict, reqNum = 5)
+getCompanyCalculatedMetrics(headers=dict, reqNum = int)
 ```
 
 ## Update Calculated Metric
 ```python
-updateCalculatedMetric(headers=dict, metricId=str, definition=dict, dataViewId = str, approved =str, reqNum =5)
+updateCalculatedMetric(headers=dict, metricId=str, definition=dict, dataViewId = str, approved =str, reqNum =int)
 ```
 * approved is an optional parameter for if you wish to approve the metric with the changes or not. Set it to a string of `true` or `false`
 
 ## Approve Calculated Metric
 ```python
-approveCalculatedMetric(headers=dict, metricId=str, reqNum=5)
+approveCalculatedMetric(headers=dict, metricId=str, reqNum=int)
 ```
 * filterRemoval - Just the filter ID you wish to remove
 
 ## Disapprove Calculated Metric
 ```python
-disapproveCalculatedMetric(headers=dict, metricId=str, reqNum=5)
+disapproveCalculatedMetric(headers=dict, metricId=str, reqNum=int)
 ```
 
 ## Delete Calculated Metric
 ```python
-deleteACalculatedMetric(headers=dict, metricId=str, reqNum=5)
+deleteACalculatedMetric(headers=dict, metricId=str, reqNum=int)
 ```
 
 ## Calculated Metric Usage
 ```python
-calculatedMetricUsage(headers=dict, reqNum=5)
+calculatedMetricUsage(headers=dict, reqNum=int)
 ```
 * Use this to generate a usage report for all your instance's calculated metrics

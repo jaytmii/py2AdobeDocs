@@ -22,12 +22,12 @@ This wrapper will allow you to track Bulk Export jobs within CJA:
 
 ## Get Bulk Export Jobs List
 ```python
-getBulkExportJobsList(headers=dict, imsUserId=str | list, reqNum = 5)
+getBulkExportJobsList(headers=dict, imsUserId=str | list, reqNum = int)
 ```
 
 ## Get Bulk Export Job Type
 ```python
-getBulkExportReportType(headers=dict, imsUserId=str | list, reqNum = 5)
+getBulkExportReportType(headers=dict, imsUserId=str | list, reqNum = int)
 ```
 * Produces a report with the type of job (daily, monthly, weekly, etc.)
 

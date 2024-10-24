@@ -52,39 +52,39 @@ There is significant functionality provided by the official API endpoints and th
 
 ## Get Company DataViews
 ```python
-getCompanyDataViews(headers=dict, reqNum = 5)
+getCompanyDataViews(headers=dict, reqNum = int)
 ```
 
 ## Get Single DataView Info
 ```python
-getSingleDataViewInfo(headers=dict, dataViewId = str, reqNum = 5)
+getSingleDataViewInfo(headers=dict, dataViewId = str, reqNum = int)
 ```
 
 ## Get Company DataView Filters
 ```python
-getCompanyDataViewFilters(headers=dict, reqNum = 5)
+getCompanyDataViewFilters(headers=dict, reqNum = int)
 ```
 
 ## Get Single DataView Filters Info
 ```python
-getSingleDataViewFilters(headers=dict, dataViewId = str, reqNum = 5)
+getSingleDataViewFilters(headers=dict, dataViewId = str, reqNum = int)
 ```
 
 ## Get Company DataViews Usage
 ```python
-getCompanyDataViewsUsage(headers=dict, reqNum = 5)
+getCompanyDataViewsUsage(headers=dict, reqNum = int)
 ```
 * Builds a report based off the number of projects used by each dataView as a proxy for usage
 
 ## Get Company DataViews Usage Report
 ```python
-getCompanyDataViews(headers=dict, reqNum = 5)
+getCompanyDataViews(headers=dict, reqNum = int)
 ```
 * This is a summation and visualization table of the base report from getCompanyDataViewUsage.
 
 ## Create A DataView
 ```python
-createDataView(headers =dict, name = str, description = str,connectionId = str,timezone = str, segmentList = list,numPeriods = int,granularity = str,func = str,  reqNum=5)
+createDataView(headers =dict, name = str, description = str,connectionId = str,timezone = str, segmentList = list,numPeriods = int,granularity = str,func = str,  reqNum=int)
 ```
 * name - Refers to the name of the DataView
 * description - Refers to the description of the DataView
@@ -97,7 +97,7 @@ createDataView(headers =dict, name = str, description = str,connectionId = str,t
 
 ## Copy A DataView
 ```python
-copyDataView(headers=dict, dataViewId =str, reqNum = 5)
+copyDataView(headers=dict, dataViewId =str, reqNum = int)
 ```
 
 ## Delete A DataView
@@ -107,56 +107,56 @@ deleteDataView(headers=dict, dataViewId=str)
 
 ## Modify DataView Connections
 ```python
-modifyDataViewConnection(headers=dict, dataViewId=str, connectionId = str, reqNum = 5)
+modifyDataViewConnection(headers=dict, dataViewId=str, connectionId = str, reqNum = int)
 ```
 
 ## Modify DataView Name
 ```python
-modifyDataViewName(headers=dict, dataViewId=str, name = str, reqNum = 5)
+modifyDataViewName(headers=dict, dataViewId=str, name = str, reqNum = int)
 ```
 
 ## Modify DataView Description
 ```python
-modifyDataViewDescription(headers=dict, dataViewId=str, description = str, reqNum = 5)
+modifyDataViewDescription(headers=dict, dataViewId=str, description = str, reqNum = int)
 ```
 
 ## Modify DataView Timezone
 ```python
-modifyDataViewTimezone(headers=dict, dataViewId=str, timezone = str, reqNum = 5)
+modifyDataViewTimezone(headers=dict, dataViewId=str, timezone = str, reqNum = int)
 ```
 
 ## Modify DataView Session
 ```python
-modifyDataViewSession(headers=dict, dataViewId=str, numPeriod = int, granularity =str, func = str, reqNum = 5)
+modifyDataViewSession(headers=dict, dataViewId=str, numPeriod = int, granularity =str, func = str, reqNum = int)
 ```
 
 ## Add DataView Filters
 ```python
-addDataViewFilters(headers=dict, dataViewId=str, filterAddition = str, reqNum = 5)
+addDataViewFilters(headers=dict, dataViewId=str, filterAddition = str, reqNum = int)
 ```
 * filterAddition - Just the filter ID you wish to add
 * NOTE: You must have the dimensions and metrics for the filter present in the dataview or the call will fail
 
 ## Remove DataView Filters
 ```python
-removeDataViewFilters(headers=dict, dataViewId=str, filterRemoval = str, reqNum = 5)
+removeDataViewFilters(headers=dict, dataViewId=str, filterRemoval = str, reqNum = int)
 ```
 * filterRemoval - Just the filter ID you wish to remove
 
 ## Get DataView Dimensions
 ```python
-getDataViewDimensions(headers=dict, dataViewId=str,  reqNum = 5)
+getDataViewDimensions(headers=dict, dataViewId=str,  reqNum = int)
 ```
 
 ## Get DataView Single Dimension
 ```python
-getDataViewsSingleDimensions(headers=dict, dataViewId=str, dimensionId = str, reqNum = 5)
+getDataViewsSingleDimensions(headers=dict, dataViewId=str, dimensionId = str, reqNum = int)
 ```
 * dimensionId - From _experience forward is the ID for the dimension
 
 ## Add or remove Single Dimension
 ```python
-addOrRemoveDataViewDimension(headers=dict,dataViewId=str,name=str,addOrRemove=str,schemaLocation=str,  reqNum = 5)
+addOrRemoveDataViewDimension(headers=dict,dataViewId=str,name=str,addOrRemove=str,schemaLocation=str,  reqNum = int)
 ```
 * name - The name of the Dimension in the UI
 * addOrRemove - This will be a string of either "Add" or "Remove" depending on the goal of the user
@@ -170,12 +170,12 @@ bulkAddOrRemoveDataViewDimensions(headers =dict, name=list, dataViewId=str, addO
 
 ## Change DataView Dimension Name
 ```python
-changeDataViewDimensionName(headers = dict,name = str, dataViewId = str, schemaLocation = str, reqNum = 5)
+changeDataViewDimensionName(headers = dict,name = str, dataViewId = str, schemaLocation = str, reqNum = int)
 ```
 
 ## Change DataView Dimension Description
 ```python
-changeDataViewDimensionDescription(headers = dict,description= str, dataViewId = str, schemaLocation = str, reqNum = 5)
+changeDataViewDimensionDescription(headers = dict,description= str, dataViewId = str, schemaLocation = str, reqNum = int)
 ```
 
 ## Bulk Change Dimension Name
@@ -190,18 +190,18 @@ bulkChangeDataViewDimensionDescription(headers=dict, description=list, dataViewI
 
 ## Get DataView Metrics
 ```python
-getDataViewMetrics(headers=dict, dataViewId=str, reqNum = 5)
+getDataViewMetrics(headers=dict, dataViewId=str, reqNum = int)
 ```
 
 ## Get DataView Single Metric
 ```python
-getDataViewsSingleMetric(headers=dict, dataViewId=str, metricId=str, reqNum = 5)
+getDataViewsSingleMetric(headers=dict, dataViewId=str, metricId=str, reqNum = int)
 ```
 * metricId - This is usually the same as the schema path, starting with `_experience`
 
 ## Add Or Remove DataView Metric
 ```python
-addOrRemoveDataViewMetric(headers=dict,name=str, dataViewId=str,addOrRemove=str,schemaLocation=str, reqNum = 5)
+addOrRemoveDataViewMetric(headers=dict,name=str, dataViewId=str,addOrRemove=str,schemaLocation=str, reqNum = int)
 ```
 * addOrRemove - Must be either, "Add" or "Remove"
 
@@ -233,6 +233,6 @@ bulkAddOrRemoveDataViewMetrics(headers =dict, name=list, dataViewId=str, addOrRe
 
 ## Get Company DataView Dimension and Metrics
 ```python
-getCompanyDataViewDimensionsAndMetrics(headers = dict, reqNum = 5)
+getCompanyDataViewDimensionsAndMetrics(headers = dict, reqNum = int)
 ```
 * This is a pull of every dimensions and metric by dataview across the entirety of CJA's instance

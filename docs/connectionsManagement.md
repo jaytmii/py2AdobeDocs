@@ -23,29 +23,29 @@ Connections management is primarily for monitoring your connections and staying 
 
 ## Get Company Connections
 ```python
-getCompanyConnections(headers=dict, reqNum = 5)
+getCompanyConnections(headers=dict, reqNum = int)
 ```
 
 ## Get Single Connection
 ```python
-getSingleConnection(headers=dict, connectionId=str reqNum = 5)
+getSingleConnection(headers=dict, connectionId=str reqNum = int)
 ```
 * Contains all the logic powering the calculation
 
 ## Get Company Connections BackfillReport
 ```python
-getCompanyConnectionsBackfillReport(headers=dict, reqNum=5)
+getCompanyConnectionsBackfillReport(headers=dict, reqNum=int)
 ```
 * For pulling a count of current backfills by connection
 
 ## Get Company Connections DataSet Report
 ```python
-getCompanyConnectionsDataSetReport(headers=dict, reqNum=5)
+getCompanyConnectionsDataSetReport(headers=dict, reqNum=int)
 ```
 * This will show you all the datasets you have across your connections
 
 ## Get Data Source Type
 ```python
-getDataSourceType(headers=dict, reqNum=5)
+getDataSourceType(headers=dict, reqNum=int)
 ```
 * This will show you all data source types across your company used in all your connections

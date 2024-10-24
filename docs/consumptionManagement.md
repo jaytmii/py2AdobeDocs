@@ -26,18 +26,18 @@ This area of functions is for tracking your CJA consumption. Due to processing t
 
 ## Get Cumulative Reportable Rows
 ```python
-getCumulativeReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=5)
+getCumulativeReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=int)
 ```
 
 ## Get Monthly Reportable Rows
 ```python
-getMonthlyReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=5)
+getMonthlyReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=int)
 ```
 
 
 ## Get Yearly Reportable Rows
 ```python
-getYearlyReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=5)
+getYearlyReportableRows(headers=dict, startMonth=str, startYear=str, endMonth=str, endYear=str, reqNum=int)
 ```
 
 

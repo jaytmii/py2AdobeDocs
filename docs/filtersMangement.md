@@ -36,81 +36,81 @@ This is for managing your filters on CJA
 
 ## Get Filter
 ```python
-getFilter(headers=dict, filterId=str, reqNum=5)
+getFilter(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Get Total Filters Count
 ```python
-getTotalFiltersCount(headers=dict,  reqNum=5)
+getTotalFiltersCount(headers=dict,  reqNum=int)
 ```
 
 ## Get Company Filters
 ```python
-getCompanyFilters(headers=dict, reqNum=5)
+getCompanyFilters(headers=dict, reqNum=int)
 ```
 
 ## Get Filter Definition
 ```python
-getFilterDefinition(headers=dict, filterId=str, reqNum=5)
+getFilterDefinition(headers=dict, filterId=str, reqNum=int)
 ```
 * This part of the json is the logic for the filter
 
 ## Copy Filter
 ```python
-copyFilter(headers=dict, filterId=str, reqNum=5)
+copyFilter(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Get Filter Use Report
 ```python
-copyFilter(headers=dict, filterId=str, reqNum=5)
+copyFilter(headers=dict, filterId=str, reqNum=int)
 ```
 * Get a report of the usage of the filter across your instance
 
 ## Share Filter To All
 ```python
-shareFilterToAll(headers=dict, filterId=str, reqNum=5)
+shareFilterToAll(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Unshare Filter To All
 ```python
-unshareFilterToAll(headers=dict, filterId=str, reqNum=5)
+unshareFilterToAll(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Share Filter To User
 ```python
-unshareFilterToUser(headers=dict, filterId=str, userId=str,reqNum=5)
+unshareFilterToUser(headers=dict, filterId=str, userId=str,reqNum=int)
 ```
 * userId can be found by checking the accounts identifying information
 
 ## Share Filter To Group
 ```python
-shareFilterToGroup(headers=dict, filterId=str, imsUserId=str,reqNum=5)
+shareFilterToGroup(headers=dict, filterId=str, imsUserId=str,reqNum=int)
 ```
 * imsUserId can be found by checking the groups identifying information
 
 ## Approve Filter
 ```python
-approveFilter(headers=dict, filterId=str, reqNum=5)
+approveFilter(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Disapprove Filter
 ```python
-disapproveFilter(headers=dict, filterId=str, reqNum=5)
+disapproveFilter(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Update Filter
 ```python
-updateFilter(headers=dict, filterId=str, definition=dict, dataViewId=str, reqNum=5)
+updateFilter(headers=dict, filterId=str, definition=dict, dataViewId=str, reqNum=int)
 ```
 * definition contains the logic to the filter
 
 ## Delete A Filter
 ```python
-deleteAFilter(headers=dict, filterId=str, reqNum=5)
+deleteAFilter(headers=dict, filterId=str, reqNum=int)
 ```
 
 ## Filter Usage
 ```python
-filterUsage(headers=dict, reqNum=5)
+filterUsage(headers=dict, reqNum=int)
 ```
 * Shows a report of filters by the numbers of projects they are included in

@@ -35,74 +35,74 @@ This module contains all the functions needed to manage projects across your ins
 
 ## Copy A Project
 ```python
-copyAProject(headers=dict, componentId=str, reqNum=5)
+copyAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Project Name
 ```python
-getProjectName(headers=dict, componentId=str, reqNum=5)
+getProjectName(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Project Definition
 ```python
-getProjectDefinition(headers=dict, componentId=str, reqNum=5)
+getProjectDefinition(headers=dict, componentId=str, reqNum=int)
 ```
 * This contains the logic of the project
 
 ## Get Project Info
 ```python
-getProjectInfo(headers=dict, componentId=str, reqNum=5)
+getProjectInfo(headers=dict, componentId=str, reqNum=int)
 ```
 * This generates a basic report of metadata about your project
 
 ## Get All Projects Info
 ```python
-getAllProjectaInfo(headers=dict, reqNum=5)
+getAllProjectaInfo(headers=dict, reqNum=int)
 ```
 
 ## Get External References
 ```python
-getExternalRefernces(headers=dict, componentId=str, reqNum=5)
+getExternalRefernces(headers=dict, componentId=str, reqNum=int)
 ```
 * metadata about which filters, dimensions, metrics, dateranges, dataviews, or annotations are used in the project
 
 ## Get Metrics Used In A Project
 ```python
-getMetricsUsedInAProject(headers=dict, componentId=str, reqNum=5)
+getMetricsUsedInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Filters Used In A Project
 ```python
-getFiltersUsedInAProject(headers=dict, componentId=str, reqNum=5)
+getFiltersUsedInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get DataViews Used In A Project
 ```python
-getDataViewsUsedInAProject(headers=dict, componentId=str, reqNum=5)
+getDataViewsUsedInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Date Ranges Used in A Project
 ```python
-getDateRangesUsedInAProject(headers=dict, componentId=str, reqNum=5)
+getDateRangesUsedInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Calculated Metrics In A Project
 ```python
-getCalculatedMetricsInAProject(headers=dict, componentId=str, reqNum=5)
+getCalculatedMetricsInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Annotations In A Project
 ```python
-getAnnotationsInAProject(headers=dict, componentId=str, reqNum=5)
+getAnnotationsInAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Delete A Project
 ```python
-deleteAProject(headers=dict, componentId=str, reqNum=5)
+deleteAProject(headers=dict, componentId=str, reqNum=int)
 ```
 
 ## Get Project Usage
 ```python
-getProjectUsage(headers=dict, reqNum=5)
+getProjectUsage(headers=dict, reqNum=int)
 ```
 

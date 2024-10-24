@@ -22,16 +22,16 @@ This part of the wrapper is for keeping track of annotations made across your pr
 
 ## Get Annotation
 ```python
-getAnnotation(headers=dict, annotationId =str, reqNum = 5)
+getAnnotation(headers=dict, annotationId =str, reqNum = int)
 ```
 
 ## Get All Annotations
 ```python
-getAllAnnotations(headers=dict, reqNum = 5)
+getAllAnnotations(headers=dict, reqNum = int)
 ```
 
 ## Get AnnotationTags
 ```python
-getAnnotationTags(headers=dict, annotationId =str, reqNum = 5)
+getAnnotationTags(headers=dict, annotationId =str, reqNum = int)
 ```
 * This will get all tags associated with your specific annotation across all component types.

@@ -26,26 +26,26 @@ WARNING: Most out of the Box functions assume your headers use: `application/vnd
 
 ## Get Tenant Id
 ```python
-getTenantId(headers=dict, reqNum=5)
+getTenantId(headers=dict, reqNum=int)
 ```
 
 ## Get Company Descriptors
 ```python
-getCompanyDescriptors(headers=dict, containerId=str, reqNum=5)
+getCompanyDescriptors(headers=dict, containerId=str, reqNum=int)
 ```
 
 ## Delete Descriptors
 ```python
-deleteDescriptors(headers=dict, descriptorList=list, reqNum=5)
+deleteDescriptors(headers=dict, descriptorList=list, reqNum=int)
 ```
 * Run with a list of descriptors
 
 ## Get Schema Events
 ```python
-getSchemaEvents(headers=dict, schemaId=str, reqNum=5)
+getSchemaEvents(headers=dict, schemaId=str, reqNum=int)
 ```
 
 ## Get Schema Dimensions
 ```python
-getSchemaDimensions(headers=dict, schemaId=str, reqNum=5)
+getSchemaDimensions(headers=dict, schemaId=str, reqNum=int)
 ```
